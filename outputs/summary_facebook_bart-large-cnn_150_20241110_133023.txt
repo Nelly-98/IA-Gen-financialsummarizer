@@ -1,0 +1,4 @@
+Modèle utilisé: facebook_bart-large-cnn
+Longueur du résumé: 150 mots
+
+Le chiffre d'affaires de l'année 2023 a atteint 12,5 millions d'euros. La France et l'Allemagne restent les deux marchés principaux. La marge brute a été maintenue à 42 %. L'entreprise prévoit une croissance continue pour 2024.

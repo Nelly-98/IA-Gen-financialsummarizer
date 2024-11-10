@@ -14,7 +14,7 @@ def extract_text_from_docx(file):
     doc = docx.Document(file)
     return "\n".join([para.text for para in doc.paragraphs])
 
-def process_text(file):
+def process_text(file, remove_numbers=False):
     if file.name.endswith(".pdf"):
         text = extract_text_from_pdf(file)
     elif file.name.endswith(".docx"):
