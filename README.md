@@ -10,8 +10,7 @@ Ce projet a pour objectif de créer un générateur de résumés automatisés po
 
 ## Structure du projet
 - **data/** : Contient les documents d'exemple et les fichiers de données transformés.
-- **src/** : Scripts principaux, comprenant le prétraitement, la génération de résumé et les utilitaires.
-- **models/** : Emplacement pour stocker les modèles téléchargés (facultatif).
+- **src/** : Scripts principaux, comprenant le prétraitement, la génération de résumé, l'analyse des sentiments et les utilitaires.
 - **outputs/** : Stocke les résumés générés.
 - **notebooks/** : Notebooks pour l'exploration et les tests initiaux.
 
@@ -44,7 +43,7 @@ Ce projet a pour objectif de créer un générateur de résumés automatisés po
     ```bash
     streamlit run src/app.py
 
-3. Suivez les instructions à l'écran pour charger un document et générer un résumé.
+3. Suivez les instructions à l'écran pour charger un document, choisir le model à utiliser et générer un résumé.
 
 ## Auteur
 Nelly Guepnang
